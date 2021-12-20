@@ -1,614 +1,445 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-
 	<meta charset="utf-8">
-	<!-- <base href="/"> -->
-
-	<title>Энергосберегающие технологии</title>
+	<title>Инженерная диагностика</title>
 	<meta name="description" content="Test task">
-
 	<meta name="viewport"
 	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 	<link rel="icon" href="images/favicon.png">
 	<meta property="og:image" content="images/dist/preview.jpg">
-
-	<link rel="stylesheet" href="css/app.min.css">
 	
+	<!-- css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/app.min.css">
 
 </head>
-
 <body>
 	<header class="header">
 		<div class="header-top">
-			<nav class="header-top__nav">
-				<a class="header-top__nav-button">
-					<span class="bar bar1"></span>
-					<span class="bar bar2"></span>
-					<span class="bar bar3"></span>
-				</a>
-				<div class="header-top__nav-wrap ">
-					<div class="header-top__nav-inner">
-						<a href=""><img class="nav-logo" src="images/src/icons/logo_mobile.svg" alt=""></a>
-						<img class="close_nav" src="images/src/icons/close_nav.svg" alt="">
-						
-					</div><!-- header-top__nav-inner -->
-					<ul class="header-top__nav-list">
-						<li class="list-item have-child list-item-main-wrap active">
-							<a class="list-item--main " href="#"><img src="images/src/icons/radiator.svg" alt=""> <span>Отопительное оборудование</span> <img src="images/src/icons/arrow_down.svg" alt=""></a>
-							<ul class="list-items">
-							<li class="list-item child"><a href="#">Радиаторы отопления</a></li>
-							<li class="list-item child"><a href="#">Конвекторы отопления</a></li>
-							<li class="list-item child"><a href="#">Полотенцесушители</a></li>
-							<li class="list-item child"><a href="#">Арматура для радиаторов и конвектеров</a></li>
-							</ul>
-						</li>
-						<li class="list-item--main list-item-main-wrap"><a href="#"><img src="images/src/icons/tap.svg" alt=""><span>Комплектация объектов сантехникой</span></a></li>
-						<li class="list-item--main list-item-main-wrap"><a href="#"><img src="images/src/icons/sanitizer.svg" alt=""><span>Дозаторы антисептика и стойки для диспенсера</span></a></li>
-						<li class="list-item--main list-item-main-wrap"><a href="#"><img src="images/src/icons/shower.svg" alt=""><span>Водосберегающая сантехника</span></a></li>
-
-						<li class="list-item--small first"><a href="#">Наше производство</a></li>
-						<li class="list-item--small"><a href="#" >Готовые решения</a></li>
-						<li class="list-item--small"><a href="#" >О компании</a></li>
-						<li class="list-item--small"><a href="#">Доставка и оплата</a></li>
-						<li class="list-item--small"><a href="#">Сертификаты</a></li>
-						<li class="list-item--small"><a href="#">Новости</a></li>
-					</ul><!-- header-top__nav-list -->
-				</div>
-			</nav>
-			<a class="header-top__logo-wrap">
-				<img class="logo" src="images/src/logo.svg" alt="">
-				<div class="logo-content">
-					<img src="images/src/logo_name.svg" alt="">
-					<span class="logo__name" href="#">Энергосберегающие технологии</span>
-				</div>
-
-			</a>
-			<div class="header-top__search">
-				<img src="images/src/icons/search.svg" alt="">
-				<input type="text" class="header__search-input" placeholder="Поиск товаров..">
-			</div><!-- header__search -->
-			<div class="header-top__icons">
-				<a class="header__delivery" href="#"><img src="images/src/icons/delivery.svg" alt=""></a>
-				<a class="header__phone" href="#"><img src="images/src/icons/phone_header.svg" alt=""></a>
-				<a class="header__account" href="#"><img src="images/src/icons/account.svg" alt=""></a>
-				<a class="header__bag" href="#"><img src="images/src/icons/bag.svg" alt=""><img src="images/src/icons/circle_bag.svg" alt=""></a>
-			</div><!-- header__icons -->
-		</div><!-- header-top -->
-		<div class="header-top__search mobile">
-				<img src="images/src/icons/search.svg" alt="">
-				<input type="text" class="header__search-input" placeholder="Поиск товаров..">
-			</div><!-- header__search -->
-		<nav class="header-bottom">
-			<div>
-				<img src="images/src/icons/map.svg" alt="">
-				<a href="#">Екатеринбург</a>
-			</div>
-			<div>
-				<img src="images/src/icons/phone.svg" alt="">
-				<a href="tel:+74955063650">+7 (495) 506-36-50</a>
-			</div>
-			<div class="mail">
-
-				<img src="images/src/icons/mail.png" alt="">
-				<a href="mailto:office@uconerfo.ru">office@uconerfo.ru</a>
-			</div>
-			<div class="note">
-				<img src="images/src/icons/pen.svg" alt="">
-				<a href="#">Заявка на расчет</a>
-			</div>
-			<div class="contacts">
-				<img src="images/src/icons/headphones.svg" alt="">
-				<a href="#">Контакты</a>
-			</div>
-		</nav><!-- header-bottom -->
-
-	</header><!-- header -->
-
-<div class="content-wrap" >
-	<div class="content-wrap__box">
-		<div class="box__title">
-			<div >Дозаторы и антисептики</div>
-			<p>Устанавливаются в общественных местах для предотвращения распространения вирусов микробов</p>	
-		</div><!-- title -->
-		<img class="box__dispenser" src="images/src/dispenser.png" alt="">
-		<a href="#"><button><img src="images/src/icons/arrows.svg" alt="">Подробнее</button></a>
-	</div><!-- content-wrap__box -->
-	<div class="content-wrap__desc">
-		<p class="breadcrumbs__list">
-			<span class="breadcrumbs__item">
-				<a href="#" class="breadcrumbs__link main-page">Главная
-				</a>/
-			</span><!-- breadcrumbs__item -->
-			<span class="breadcrumbs__item">
-				<a href="#" class="breadcrumbs__link next-page">Отопительное оборудование
-				</a>
-				
-
-			</span><!-- breadcrumbs__item -->
-		</p><!-- breadcrumbs__list -->
-		<p class="main-block__title">Отопительное оборудование</p>
-		<span class="sorter__number mobile">
-			<span class="sorter__title-bold">2395</span>
-			<span class="sorter__title"> товаров</span>
-		</span>
-	</div><!-- content-wrap__desc -->
-	<div class="content-wrap__main-block">
-		<div class="main-block__filters">
-			<div class="filters__block">
-				<p class="filters__title">Фильтры
-					<button class="button-reset">Сбросить<img src="images/src/icons/exit.svg" alt="">
-					</button>
-				</p>
-				<div class="filters__features">
-					<button class="item">Отопительное оборудование<img src="images/src/icons/arrow_down.svg" alt=""></button>
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='type-1'>
-						<label for='type-1' class="check__title">Радиаторы отопления</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='type-2'>
-						<label for='type-2' class="check__title">Конвекторы отопления</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='type-3'>
-						<label for='type-3' class="check__title">Полотенцесушители</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='type-4'>
-						<label for='type-4' class="check__title">Арматура для радиаторов</label>
-					</div><!-- check-button -->
-				</div><!-- filters__features -->
-				<div class="filters__features">
-					<button class="item">Бренд<img src="images/src/icons/arrow_down.svg" alt=""></button>
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='brand-1'>
-						<label for='brand-1' class="check__title">Purmo</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='brand-2'>
-						<label for='brand-2' class="check__title">Irsap</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='brand-3'>
-						<label for='brand-3' class="check__title">Terma</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='brand-4'>
-						<label for='brand-4' class="check__title">Loten</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='brand-5'>
-						<label for='brand-5' class="check__title">Guardo</label>
-					</div><!-- check-button -->
-				</div><!-- filters__features -->
-				<div class="filters__features price">
-					<button class="item">Цена</button>
-					<div class="slidecontainer">
-						<input type="text" id="slider" class="slider js-range-slider">
+			<div class="header-top__left">
+				<a href="#" class="header-top__nav-button">
+					<div class="bar bar1"></div>
+					<div class="bar2">
+						<span class="bar2-part"></span>
+						<span class="bar2-part"></span>
 					</div>
-				</div><!-- filters__features -->
-				<div class="filters__features">
-					<button class="item">Количество секций<img src="images/src/icons/arrow_down.svg" alt=""></button>
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='number-1'>
-						<label for='number-1' class="check__title">4</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='number-2'>
-						<label for='number-2' class="check__title">6</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='number-3'>
-						<label for='number-3' class="check__title">8</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='number-4'>
-						<label for='number-4' class="check__title">12</label>
-					</div><!-- check-button -->
-				</div><!-- filters__features -->		
-				<div class="filters__features">
-					<button class="item">Межосетевое расстояние<img src="images/src/icons/arrow_down.svg" alt=""></button>
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='long-1'>
-						<label for='long-1' class="check__title">20 см</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='long-2'>
-						<label for='long-2' class="check__title">35 см</label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='long-3'>
-						<label for='long-3' class="check__title">50 см</label>
-					</div><!-- check-button -->
-				</div><!-- filters__features -->
-
-				<div class="filters__features square">
-					<button class="item">Площадь отопления<img src="images/src/icons/arrow_down.svg" alt=""></button>
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='square-1'>
-						<label for='square-1' class="check__title ">Более 19 м<sup>2</sup></label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='square-2'>
-						<label for='square-2' class="check__title">Менее 8 м<sup>2</sup></label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='square-3'>
-						<label for='square-3' class="check__title">от 10 до 14 м<sup>2</sup></label>
-					</div><!-- check-button -->
-					<div class="check-button">
-						<input type="checkbox" class="custom-checkbox" id='square-4'>
-						<label for='square-4' class="check__title">от 15 до 26 м<sup>2</sup></label>
-					</div><!-- check-button -->
-				</div><!-- filters__features -->
-				<div class="filters__features">
-					<button class="item">Цвет<img src="images/src/icons/arrow_down.svg" alt=""></button>
-
-					<div class="check-button--color active">
-						<input type="checkbox" class="custom-checkbox--color red" id='color-red' checked >
-						<label for='color-red' class="check__title--color">Красный</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color yellow" id='color-yellow'>
-						<label for='color-yellow' class="check__title--color">Желтый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color green" id='color-green'>
-						<label for='color-green' class="check__title--color active">Зеленый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color blue" id='color-blue'>
-						<label for='color-blue' class="check__title--color active">Синий</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color purple" id='color-purple'>
-						<label for='color-purple' class="check__title--color active">Фиолетовый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color pink" id='color-pink'>
-						<label for='color-pink' class="check__title--color active">Розовый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color beige" id='color-beige'>
-						<label for='color-beige' class="check__title--color active">Бежевый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color white" id='color-white'>
-						<label for='color-white' class="check__title--color active">Белый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color black" id='color-black'>
-						<label for='color-black' class="check__title--color active">Черный</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-
-					<div class="check-button--color">
-						<input type="checkbox" class="custom-checkbox--color grey" id='color-grey'>
-						<label for='color-grey' class="check__title--color active">Серый</label>
-						<img src="images/src/icons/exit_black.svg" alt="">
-					</div><!-- check-button--color -->
-				</div><!-- filters__features -->
-				
-			</div><!-- filters__block -->
-			<div class="filters__block-bottom">
-					<a href="#"><button class="apply-filters"><img src="images/src/icons/arrows_white.svg" alt="">Применить</button></a>
-
-					<a href="#"><button class="reset-filters">Сбросить<img src="images/src/icons/exit.svg" alt="">
-					</button></a>
-
+					<div class="bar bar3"></div>
+				</a>
+				<div class="header-top__logo">
+					<img src="images/dist/logo.png" alt="">
 				</div>
-		</div><!-- main-block__filters -->
+			</div><!-- header-top__left -->
+			<div class="header-top__right">
+				<div class="header-top__email">
+					<div>Пишите нам на email</div>
+					<a href="mailto:info@diagnistics.by"><img src="images/dist/icons/mail.svg" alt="">info@diagnistics.by</a>
+				</div><!-- header-top__email -->
+				<div class="header-top__phone">
+					<div><img src="images/dist/icons/phone.svg" alt="">
+					Есть вопросы? Звоните!</div>
+					<a href="tel:+375294564545">+375 (29) 456-45-45</a>
+				</div><!-- header-top__phone -->
+			</div><!-- header-top__right -->
+		</div><!-- header-top -->
 
-		<div class="main-block__product">
-			<div class="sorter">
+		<div class="header-main">
+			<div class="header-main__top">
+				<div class="header-main__top-title">
+					<p>Независимое обследование
+					зданий и сооружений</p>
+					<p>антенн, труб, теплосетей, канализаций
+					и других объектов строительства</p>
+				</div><!-- header-main__title -->
+				<div class="offer">
+					<button>
+						<img src="images/dist/icons/download.svg" alt="">
+						получить коммерческое
+					</button>
+					<p>Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер</p>
+				</div><!-- header-main__top-offer -->
+			</div><!-- header-main__top -->
+			<div class="header-main__bottom">
+				<div class="benefits">
+					<div class="benefits-first">
+						<img src="images/dist/01.png" alt="">
+						Начинаем работать без аванса
+					</div><!-- header-main__bottom-benefits -->
 
-				<span class="sorter__number">
-					<span class="sorter__title-bold">2394</span>
-					<span class="sorter__title"> товаров</span>
-				</span>
+					<div class="benefits-second">
+						<img src="images/dist/02.png" alt="">
+						Предоставляем отсрочку платежа
+					</div><!-- header-main__bottom-benefits -->
 
+					<div class="benefits-third">
+						<img src="images/dist/03.png" alt="">
+						Всегда называем справедливую цену
+					</div><!-- header-main__bottom-benefits -->
+				</div><!-- benefits -->
+				<div class="header-main__bottom-video">
+					<img  class="video_stamp" src="images/dist/stamp.png" alt="">
+					<div class="video-block">
 
-				<span class="sorter__price">
-					<span class="sorter__title">Цена: </span>
-					<span class="sorter__title-bold">По возрастанию <img src="images/src/icons/arrow_down.svg" alt="">
-						
-					</span>
-				</span>
-			</div><!-- sorter -->
+						<img class="video_image" src="images/dist/video_image.png" alt="">
+						<button>
+							<img src="images/dist/icons/polygon.svg" alt="">
+						</button>
+					</div><!-- video-block -->
+				</div><!-- header-main__bottom-video -->
+			</div><!-- header-main__bottom -->
+		</div><!-- header-main -->
+	</header><!-- header -->
+<div class="block-about">
+	<div class="block-about-color"></div>
+	<div class="container">
+		<div class="block-center">
 
-			<div class="sorter mobile">
+			<div class="block-center__content">
+				<p class="title-bold"><span>Мы работаем быстро</span>
+				и наши отчеты проходят согласование с первого раза</p>
+				<p class="title-opacity"><span>Над вашим объектом работает целая команда:</span>
+				3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ</p>
+			</div><!-- block-center__content -->
+			<img class="image-center" src="images/dist/tv.png" alt="">
+			<div class="list-block">
+				<p class="subtitle-bold">
+					Вы и Ваши архитекторы получаете:
+				</p>
+				<ul>
+					<li>
+						<img src="images/dist/icons/icon.png" alt="">
+						<span class="text-grey">Отчет на который на 100% можно положиться</span> 
+					</li>
+					<li>
+						<img src="images/dist/icons/icon.png" alt="">
+						<span class="text-grey">Экономию времени и прогнозируемость сроков</span> 
+					</li>
+					<li>
+						<img src="images/dist/icons/icon.png" alt="">
+						<span class="text-grey">Предварительные результаты сразу на месте</span> 
+					</li>
+				</ul>
+			</div><!-- list-block -->
 
-				<span class="sorter__filters">
-					<span class="sorter__title mobile"><img src="images/src/icons/filters_mobile.svg" alt="">Фильтры</span>
-				</span>
+		</div><!-- block-center -->
+	</div><!-- container -->
+</div><!-- block-about -->
+<div class="block-slider">
+	<div class="block-slider__title">
+		<div class="title-space">Услуги</div>
+		<div class="title-bold color">Выполняем как комплексное обследование, так и отдельные виды работ</div>
+	</div><!-- block-slider__title -->
+	<div class="slider-container">
+		<div class="swiper-wrapper">
 
-				<span class="sorter__sorting">
-					<span class="sorter__title mobile">Сортировка<img src="images/src/icons/arrow_down.svg" alt="">
-					</span>
-				</span>
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider1.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Общее обследование</p>
+				<p class="description">Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности
+				и т.д.</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-			</div><!-- sorter mobile -->
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider2.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Тепловизионная съемка</p>
+				<p class="description">Исследование системы отопления, вентиляции и кондиционирования, а также оценка энергоэффективности здания</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-			<div class="product">
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo.png" alt="">
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider3.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Телеинспекция инженерных сетей</p>
+				<p class="description">Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250 метров</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider4.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Тахеометрическая съемка</p>
+				<p class="description">Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale active-mobile">5 890<sup>₽</sup><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card active active-mobile">
-					<img class="product__image" src="images/src/thermo_indigo_2.png" alt="">
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider4.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Тахеометрическая съемка</p>
+				<p class="description">Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider4.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Тахеометрическая съемка</p>
+				<p class="description">Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale active-mobile">5 890<sup>₽</sup><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card piano">
-					<img class="product__image" src="images/src/thermo_piano.png" alt="">
+			<div class="swiper-slide">
+				<div class="slider-image">
+					<img class="image" src="images/dist/slider4.png" alt="">
+				</div><!-- slide-image -->
+				<p class="subtitle-bold color">Тахеометрическая съемка</p>
+				<p class="description">Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве</p>
+				<button class="title-space button">Подробнее <img src="images/dist/icons/arrow.svg" alt=""></button>
+			</div><!-- swiper-slide -->
 
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
+		</div><!-- swiper-wrapper -->
 
-					<p class="description ">Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo_2.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card piano">
-					<img class="product__image" src="images/src/thermo_piano.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card active">
-					<img class="product__image" src="images/src/thermo_indigo_2.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card piano">
-					<img class="product__image" src="images/src/thermo_piano.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card">
-					<img class="product__image" src="images/src/thermo_indigo_2.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card piano">
-					<img class="product__image" src="images/src/thermo_piano.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				
-
-				<div class="product__card unactive-mobile">
-					<img class="product__image" src="images/src/thermo_indigo.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card unactive-mobile">
-					<img class="product__image" src="images/src/thermo_indigo_2.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Биметаллический радиатор Royal Thermo Indigo Super</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="product__card piano">
-					<img class="product__image" src="images/src/thermo_piano.png" alt="">
-
-					<div class="card-sale"><img src="images/src/icons/percents.svg" alt="">Акция</div>
-
-					<p class="description">Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico</p>
-					<span class="price">4 250<sup>₽</sup></span>
-					<span class="price mobile">13890<sup>₽</sup></span>
-					<span class="price-sale">5 890<sub>₽</sub><img src="images/src/icons/red_line.svg" alt=""></span>
-					<div class="cart-add"><img src="images/src/icons/product_bag.svg" alt=""></div>
-				</div><!-- product__card -->
-				<div class="show-more-wrap"><span class="show-more">Показать еще</span></div>
-			</div><!-- product -->
-		</div><!-- main-block__product -->
+		<div class="swiper-scrollbar"></div>
 		
-	</div><!-- content-wrap__main-block -->
-	<div class="main-block__text">
-		<h2>Длинный или короткий заголовок SEO текста</h2><p>Интернет-магазин автоматической водосберегающей сантехники и дизайн радиаторов отопления</p><p>Сантехническое и отопительное оборудование - основные продукты интернет-магазина "Экон Урфо".</p><p>На сайте urfoecon.ru, вы можете выбрать и купить автоматическую водосберегающую сантехнику и дизайн радиаторы отопления. На сайте urfoecon.ru, вы можете выбрать: смесители, душевые, смывные устройства для унитазов и писсуаров, а так же дополнительные товары: сушилки для рук, дозаторы мыла, фены для волос, держатели туалетной бумаги, ведра и другое.</p><p>Преимущества автоматической водосберегающей сантехники — экономия денег и воды! Результат будет заметен с первого месяца установки. Обратитесь к нашим специалистам и узнайте вашу выгоду при использовании автоматической водосберегающей сантехники. Звоните или оставляйте заявку на расчет.</p><h3>Подзаголовок внутри текста</h3><p>На сайте urfoecon.ru, вы можете выбрать красивые современные модели радиаторов отопления Европейских и Российских производителей. Радиаторы представленные в каталоге,изготовлены из прочных материалов: сталь, алюминий и биметалл. Мы уверены в качестве нашей продукции и предоставляем гарантию до 25 лет на радиаторы отопления. В нашем ассортименте: водяные и электрические радиаторы, высокие, средние и низкие, узкие и широкие, трубчатые и панельные модели, стандартные белые, черные, бежевые и любые цвета по шкале RAL.</p><p>Обратитесь к нашим специалистам и подберите радиаторы, которые гармонично впишутся в ваш интерьер и будут эффективно обогревать ваш дом. Звоните или оставляйте заявку на расчет.</p>
-	</div>
-</div><!-- content-wrap -->
-<footer class="footer">
-	<div class="footer__block">
-	<div class="footer__contacts">
-		<div class="footer__logo">
-			<img class="logo-footer" src="images/src/logo.svg" alt="">
-			<div class="logo-content logo-content__mobile">
-				<img src="images/src/logo_name.svg" alt="">
-				<span class="logo__name mobile" href="#">Энергосберегающие технологии</span>
-			</div><!-- logo-content -->
-		</div><!-- footer__logo -->
-		<div class="footer__phone">
-			<img src="images/src/icons/phone_footer.svg" alt="">
-			<a href="tel:+74955063650">+7 (495) 506-36-50</a>
-		</div><!-- footer__phone -->
-		<div class="footer__mode">
-			<p>Пн-Пт: c 08:00 до 19:00</p>
-			<p>Сб-Вс: c 08:00 до 16:00</p>
-		</div><!-- footer__mode -->
-		<div class="footer__email">
-			<img src="images/src/icons/mail_footer.svg" alt="">
-			<a href="mailto:office@uconerfo.ru">office@uconerfo.ru</a>
-		</div><!-- footer__email -->
-		<div class="footer__network">
-			<p>Мы в сети</p>
-			
-			<p><img src="images/src/icons/vk.svg" alt="">ВКонтакте</p>
-			
-			<p><img src="images/src/icons/insta.svg" alt="">Instagram</p>
-		</div><!-- footer__network -->
-	</div><!-- footer__contacts -->
+		
+	</div><!-- slider-container -->
 
-	<div class="footer__category">
-		<p href="#"class="footer__item">Категории продукции</p>
-		<a href="#" class="product-item">Трубчатые радиаторы</a>
-		<a href="#" class="product-item">Панельные радиаторы</a>
-		<a href="#" class="product-item">Полотенцесушители</a>
-		<a href="#" class="product-item">Вертикальные радиаторы</a>
-		<a href="#" class="product-item">Дизайн радиаторы</a>
-		<a href="#" class="product-item">Внутрипольные конвекторы</a>
-		<a href="#" class="product-item">Конвекторы водяные</a>
-		<a href="#" class="product-item">Водосберегающая сантехника</a>
-		<a href="#" class="product-item">Теплый пол</a>
-		<a href="#" class="product-item">Чугунные дизайн радиаторы</a>
-		<a href="#" class="product-item">Арматура для радиаторов</a>
-	</div><!-- footer__category -->
-	<div class="footer__category">
-		<p href="#" class="footer__item">Категории продукции</p>
-		<a href="#" class="product-item">Трубчатые радиаторы</a>
-		<a href="#" class="product-item">Панельные радиаторы</a>
-		<a href="#" class="product-item">Полотенцесушители</a>
-		<a href="#" class="product-item">Вертикальные радиаторы</a>
-		<a href="#" class="product-item">Дизайн радиаторы</a>
-		<a href="#" class="product-item">Внутрипольные конвекторы</a>
-		<a href="#" class="product-item">Конвекторы водяные</a>
-		<a href="#" class="product-item">Водосберегающая сантехника</a>
-		<a href="#" class="product-item">Теплый пол</a>
-		<a href="#" class="product-item">Чугунные дизайн радиаторы</a>
-		<a href="#" class="product-item">Арматура для радиаторов</a>
-	</div><!-- footer__category -->
-	<div class="footer__info">
-		<p href="#" class="footer__item">Информация</p>
-		<a href="#" class="info-item">О компании</a>
-		<a href="#" class="info-item">Готовые решения</a>
-		<a href="#" class="info-item">Наша продукция</a>
-		<a href="#" class="info-item">Цвета</a>
-		<a href="#" class="info-item">Сертификаты</a>
-		<a href="#" class="info-item">Доставка и оплата</a>
-		<a href="#" class="info-item">Контакты</a>
-	</div><!-- footer__info -->
-</div><!-- footer__block -->
-<div class="footer__copyright">
-	<a>Copyright © 2014 - 2020</a>
-	<a>Политика конфиденциальности</a>
-	<a>Обработка персональной информации</a>
-	<a>Разработано <img src="images/src/icons/logo_copy.svg" alt=""><img src="images/src/icons/request_design.svg" alt=""></a>
+</div><!-- block-slider -->
+<div class="container">
+	<div class="title-block">
+		<p>Мы работаем в комплексе</p>
+		<p>чтобы Вы не тратили время на поиск и организацию
+		множества подрядчиков</p>
+	</div><!-- title-block -->
+</div><!-- container -->
 
-</div>
+<div class="block-first-step">
+	<div class="block-center__content steps">
+		<img src="images/dist/block_step.png" alt="">
+	</div><!-- block-center__content -->
+
+	<div class="container">
+
+		<div class="block-center">
+			<div class="block-first-step__left"></div>
+			
+			<div class="list-block steps">
+				<span class="subtitle-background">шаг №1.</span>
+				<span class="subtitle-bold steps">Подготовительные работы</span>
+				<div  class="text-grey steps">Мы осматриваем здание, делаем замеры и проверяем наличие визуально заметных дефектов: трещин, коррозии, повреждения фундамента и т.д. </div> 
+				<div class="quote">
+					<div><img class="video_image quote" src="images/dist/video_image.png" alt=""></div>
+					<div><i class="quote-text">“Задача этого этапа получить максимально полное представление о конструкции здания, условиях его эксплуатации и возможных слабых местах“</i></div>
+				</div><!-- quote -->
+				<div class="quote-name"><span>Алексей</span>, обследователь и главный инженер проектов</div>
+			</div><!-- list-block steps-->
+		</div><!-- block-center -->
+
+	</div><!-- .container -->
+
+</div><!-- .block-first-step -->
+
+<div class="slider__block-tools">
+
+	<div class="container">
+
+		<div class="list-block tools">
+			<span class="subtitle-background">шаг №2.</span>
+			<span class="subtitle-bold steps">Детальное инструментальное обследование</span>
+			<div  class="text-grey steps"><div>Мы понимаем насколько важны сроки и сколько может стоить день задержки. Поэтому Вы никогда</div> не услышите от нас слов “надо подождать пару дней, пока освободится арендное оборудование”<div>- мы укомплектованы всем необходимым</div></div> 
+
+		</div><!-- list-block steps-->
+
+	</div><!-- .container -->
+
+	<div class="slider-tools">
+		<div class="swiper-wrapper tools">
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item1.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Локатор арматуры “Profoscope”</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item2.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Измеритель прочности бетона “ОНИКС-1”</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item3.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Прибор ультразвукового действия “ПУЛЬСАР-2”</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item4.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Измеритель прочности бетона “Молоток Шмидта”
+				</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item1.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Локатор арматуры “Profoscope”</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item1.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Локатор арматуры “Profoscope”</p>
+			</div><!-- swiper-slide -->
+
+			<div class="swiper-slide tools">
+				<div class="slider-image tools">
+					<img class="image tools" src="images/dist/item1.png" alt="">
+				</div><!-- slider-image -->
+				<p class="description black">Локатор арматуры “Profoscope”</p>
+			</div><!-- swiper-slide -->
+
+
+		</div><!-- swiper-wrapper -->
+
+		<div class="swiper-pagination"></div>
+		
+	</div><!-- slider-tools -->
+
+</div><!-- tools-slider -->
+
+
+<div class="block-steps-two">
+
+
+			<div class="block-center__content steps">
+				<img src="images/dist/block_step2.png" alt="">
+			</div><!-- block-center__content -->
+	
+	<div class="container">
+		<div class="block-center reverse">
+
+			<div class="list-block steps">
+				<span class="subtitle-background">шаг №3.</span>
+				<span class="subtitle-bold work">Обработка полученных данных</span>
+				<div  class="text-grey steps">Детальный отчет с <a href="">результатами обследования </a>
+					<div>Вы получите через 7 дней. И на его основании сможете определить судьбу объекта и прогнозировать затраты </div></div> 
+
+					<ul>
+						<li>
+							<img src="images/dist/icons/icon.png" alt="">
+							<span class="text-grey italic"><i>Мы оценим техническое состояние объекта и присвоим ему категорию</i></span> 
+						</li>
+						<li>
+							<img src="images/dist/icons/icon.png" alt="">
+							<span class="text-grey italic"><i>Объясним причины появления дефектов и повреждений в конструкциях</i></span> 
+						</li>
+						<li>
+							<img src="images/dist/icons/icon.png" alt="">
+							<span class="text-grey italic"><i>Сформируем техзадание на проектирование мероприятий по восстановлению, усилению или ремонту конструкций, оборудования и сетей</i></span> 
+						</li>
+					</ul>
+				</div><!-- list-block steps-->
+
+			</div><!-- block-center -->
+
+		</div><!-- .container -->
+	</div><!-- .block-steps-two -->
+
+
+	<div class="gift-block__wrap">
+
+		<div class="container">
+
+			<div class="gift-block">
+
+
+				<div class="title-bold white">Закажите комплексное обследование и получите тепловизионную съемку<span>в подарок</span>
+				</div>
+
+				<div class="text-grey steps">
+					<div>Мы первая в Беларуси компания в составе которой
+					есть аккредитованная тепловизионная лаборатория.</div>
+					<div>Наши аттестованные термографисты найдут утечки тепла, определят скрытые дефекты конструкции и подберут систему утепления, которую выдержат стены.</div>
+				</div><!-- text-grey steps -->
+
+				<div class="offer">
+					<button>
+						<img src="images/dist/icons/download.svg" alt="">
+						получить коммерческое
+					</button>
+					<p>Отправьте техзадание и получите коммерческое предложение в течении 15 минут</p>
+				</div>
+
+			</div><!-- gift-block -->
+
+		</div><!-- .container -->
+
+	</div><!-- .gift-block__wrap -->
+
+	<div class="container">
+
+		<div class="employees-block">
+
+			<div class="employees-block__string">
+				<img src="images/dist/tag.png" alt="">
+				<!-- <div class="title-space">команда <span></span></div> -->
+			</div>
+
+			<div class="employees_block__text">
+				<div class="title-bold">Наша главная ценность - это кадровый состав</div>
+				<div class="text-grey steps">
+					<div>За каждым отчетом стоят люди, которые берут на себя колоссальную ответственность. Поэтому мы не готовы “просто подписать бумажку”.</div>
+					<div>Наши обследователи - это аттестованные ГИПы (главные инженеры проектов), главные конструктора, инженеры, термографисты и альпинисты, которые подтверждают свою квалификацию на стажировках и курсах по 3-4 раза в году.</div>
+				</div><!-- text-grey steps -->
+
+
+				<div class="slider-setificates">
+					<div class="swiper-button-prev"></div>
+
+					<div class="swiper-wrapper docs">
+						<div class="swiper-slide">
+							<img class="swiper-slide__doc" src="images/dist/doc1.png" alt="">
+							<img class="swiper-slide__grow" src="images/dist/icons/grow.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/dist/doc2.png" alt="">
+							<img class="swiper-slide__grow" src="images/dist/icons/grow.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/dist/doc3.png" alt="">
+							<img class="swiper-slide__grow" src="images/dist/icons/grow.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/dist/doc4.png" alt="">
+							<img class="swiper-slide__grow" src="images/dist/icons/grow.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="images/dist/doc5.png" alt="">
+							<img class="swiper-slide__grow" src="images/dist/icons/grow.png" alt="">
+						</div>
+					</div><!-- swiper-wrapper docs -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div><!-- slider-setificates -->
+
+			</div><!-- employees_block__text -->
+		</div><!-- employees_block -->
+
+	</div><!-- .container -->
+
+	<footer class="footer">
+	
 </footer>
 
-
+<!-- js -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="js/app.min.js"></script>
 </body>
 </html>
